@@ -1,16 +1,3 @@
-def print_horizontal_line(board_size):
-    print('---' * board_size)
-    
-def print_vertical_line(board_size):
-    print('|  ' * (board_size + 1))
-    
-def print_board(board_size):
-    for ele in range(board_size):
-        print_horizontal_line(board_size)
-        print_vertical_line(board_size)
-    print_horizontal_line(board_size) 
-    
-
 def is_winner(board):
     winner = {0 : 'Nobody', 1 : 'Player 1', 2 : 'Player 2'}
     #print(board[0] == [1,1,1])
